@@ -1,0 +1,42 @@
+.Nav {
+	color: rgba(255, 255, 255, 0.8);
+	background-color: rgb(52, 129, 160);
+	width: 100vw;
+	height: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 12px;
+}
+
+.Nav div {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.Navleft {
+	padding: 0 20px;
+}
+
+.Navleft div {
+	margin: 0 5px;
+}
+
+.NavCenter {
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+.NavCenter div {
+	margin: 0 5px;
+}
+
+.Navright {
+	padding: 0 20px;
+}
+
+.Navright div {
+	margin: 0 5px;
+}

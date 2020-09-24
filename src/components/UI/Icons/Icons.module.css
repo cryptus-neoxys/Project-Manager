@@ -1,0 +1,54 @@
+.IconContainer {
+	border-radius: 50%;
+	transition: all 0.15s ease-in;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+
+.IconContainer:hover {
+	background: rgba(255, 255, 255, 0.3);
+}
+
+.ADGIconContainer {
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.IconContainer:hover {
+	background: rgba(255, 255, 255, 0.3);
+}
+
+.Icon {
+	transition: all 0.15s ease-in;
+}
+
+.Icon:hover {
+	/* filter: drop-shadow(2px 2px 0px #ffffff4d); */
+	background: initial;
+}
+
+.ADGIconColored {
+	/* filter: drop-shadow(2px 2px 0px #ffffff4d); */
+	transition: all 0.15s ease-in;
+	filter: brightness(1);
+	filter: opacity(0.9);
+}
+
+.ADGIconColored:hover {
+	/* filter: drop-shadow(2px 2px 0px #ffffff4d); */
+	filter: opacity(1);
+	filter: brightness(1.2);
+}
+
+.ADGIcon {
+	/* filter: drop-shadow(2px 2px 0px #ffffff4d); */
+	transition: all 0.15s ease-in;
+	filter: none;
+}
+
+.ADGIcon:hover {
+	/* filter: drop-shadow(2px 2px 0px #ffffff4d); */
+	/* filter: opacity(1); */
+	filter: brightness(1.2);
+}
