@@ -1,0 +1,27 @@
+.listItem {
+    position: relative;
+    text-align: left;
+  }
+  .cardItem {
+    margin: 0;
+    background: #ecf4f3;
+    border-radius: 0.75rem;
+    position: relative;
+    padding: 5px;
+    margin: 0.2em;
+    height: auto;
+    max-height: 50px;
+  }
+  .spanClass {
+    position: absolute;
+    right: 10px;
+    font-size: 0.75em;
+    color: #8d93ab;
+  }
+  .faicons:hover {
+    color: #393b44;
+  }
+  label {
+    font-size: 0.85em;
+    padding-left: 2px;
+  }
